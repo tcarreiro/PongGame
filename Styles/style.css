@@ -13,8 +13,8 @@ body{
 .playerScore,
 .pcScore
 {
-    position: absolute;
     display: inline-block;
+    position: absolute;
     font-size: 1.8em;
     font-weight: bold;
     color: #FFF;

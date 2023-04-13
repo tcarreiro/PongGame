@@ -12,6 +12,7 @@ export default class Paddle {
 
     set position(value) {
         this.paddleElem.style.setProperty("--position", value)
+        
     }
 
     reset() {

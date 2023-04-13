@@ -29,8 +29,8 @@ export default class Ball {
     }
 
     kickoff() {
-        this.x = 50
         this.y = 50
+        this.x = 50
         this.direction = {x: 0}
         while(Math.abs(this.direction.x) <= .2 || Math.abs(this.direction.x >= .9)) {
             const heading = randomNumberBetween(0, 2 * Math.PI)
